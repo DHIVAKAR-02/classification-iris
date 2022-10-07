@@ -8,6 +8,10 @@ def iris_flower_prediction_app():
         global iris_flower_prediction_app
         if iris_flower_prediction_app: return iris_flower_prediction_app
 
+def iris_flower_prediction_app_using_RandomForestClassifier():
+        """iris_flower_prediction_app.iris_flower_prediction_app().value"""
+        global iris_flower_prediction_app_using_RandomForestClassifier
+        if iris_flower_prediction_app: return iris_flower_prediction_app_using_RandomForestClassifier
 
 
 st.write("""
