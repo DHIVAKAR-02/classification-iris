@@ -68,3 +68,10 @@ iris_flower_prediction_app$iris_flower_prediction_app()$value()
 ```
 iris_flower_prediction_app$iris_flower_prediction_app_using_RandomForestClassifier()$value()
 ```
+
+# Screenshots of our App:
+
+![1](https://user-images.githubusercontent.com/113059991/194543272-5ee19ac9-3980-4a04-99c4-1b3698cc0d39.JPG)
+
+![2](https://user-images.githubusercontent.com/113059991/194543290-d5f21ba7-2e8c-4d5c-aedc-e685cd61e6fd.JPG)
+
