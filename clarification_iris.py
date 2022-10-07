@@ -3,6 +3,13 @@ import pandas as pd
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 
+def iris_flower_prediction_app():
+        """iris_flower_prediction_app.user_input_features().value"""
+        global iris_flower_prediction_app
+        if iris_flower_prediction_app: return iris_flower_prediction_app
+
+
+
 st.write("""
 # Simple Iris Flower Prediction App
 
