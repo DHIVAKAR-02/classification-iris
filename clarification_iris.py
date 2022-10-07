@@ -8,9 +8,9 @@ st.write("""
 
 This app predicts the **Iris flower** type!
 """)
-
+st.info("Developed by NANDHAKUMAR S, SUJITH V, MOHAMED RAFEEK S [Team MIDNIGHT HACKER]", icon="©")
 st.sidebar.header('User Input Parameters')
-
+st.sidebar.image("iris.jpg")
 def user_input_features():
     sepal_length = st.sidebar.slider('Sepal length', 4.3, 7.9, 5.4)
     sepal_width = st.sidebar.slider('Sepal width', 2.0, 4.4, 3.4)
