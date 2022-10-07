@@ -13,6 +13,16 @@ def iris_flower_prediction_app_using_RandomForestClassifier():
         global iris_flower_prediction_app_using_RandomForestClassifier
         if iris_flower_prediction_app: return iris_flower_prediction_app_using_RandomForestClassifier
 
+def add_bg_from_url():
+    st.markdown(f"""
+         <style>
+         .stApp {{
+             background-image: url("https://img.freepik.com/free-vector/purple-wild-plants-illustration-hand-drawn-set-remixed-from-artworks-by-mary-vaux-walcott_53876-112061.jpg?w=740&t=st=1665141321~exp=1665141921~hmac=16d47971835d9383cf813fe8be3ab61e84abfc2172e4a059d2f998a089ecdcbd");
+             background-attachment: fixed;
+             background-size: cover}}
+             </style>""",unsafe_allow_html=True)
+add_bg_from_url()
+
 
 st.write("""
 # Simple Iris Flower Prediction App
@@ -21,7 +31,7 @@ This app predicts the **Iris flower** type!
 """)
 st.info("Developed by NANDHAKUMAR S, SUJITH V, MOHAMED RAFEEK S [Team MIDNIGHT HACKER]", icon="©")
 st.sidebar.header('User Input Parameters')
-st.sidebar.image("iris.jpg")
+st.sidebar.image("iris1.jpg")
 def user_input_features():
     sepal_length = st.sidebar.slider('Sepal length', 4.3, 7.9, 5.4)
     sepal_width = st.sidebar.slider('Sepal width', 2.0, 4.4, 3.4)
