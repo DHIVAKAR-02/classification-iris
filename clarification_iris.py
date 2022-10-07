@@ -17,7 +17,7 @@ def add_bg_from_url():
     st.markdown(f"""
          <style>
          .stApp {{
-             background-image: url("https://img.freepik.com/free-vector/purple-wild-plants-illustration-hand-drawn-set-remixed-from-artworks-by-mary-vaux-walcott_53876-112061.jpg?w=740&t=st=1665141321~exp=1665141921~hmac=16d47971835d9383cf813fe8be3ab61e84abfc2172e4a059d2f998a089ecdcbd");
+             background-image: url("https://img.freepik.com/premium-photo/gray-calathea-lutea-leaf-patterned-background_53876-149681.jpg?w=740");
              background-attachment: fixed;
              background-size: cover}}
              </style>""",unsafe_allow_html=True)
