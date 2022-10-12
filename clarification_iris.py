@@ -8,6 +8,22 @@ def iris_flower_prediction_app():
         global iris_flower_prediction_app
         if iris_flower_prediction_app: return iris_flower_prediction_app
 
+def iris_flower_prediction_app_features():
+        """iris_flower_prediction_app.user_input_features().value"""
+        global iris_flower_prediction_app
+        if iris_flower_prediction_app: return iris_flower_prediction_app_features
+        
+
+def iris_flower_prediction_app_iris():
+        """iris_flower_prediction_app.add_bg_from_url().value"""
+        global iris_flower_prediction_app
+        if iris_flower_prediction_app: return iris_flower_prediction_app_iris
+        
+def iris_flower_prediction_app_url():
+        """iris_flower_prediction_app.add_bg_from_url().value"""
+        global iris_flower_prediction_app
+        if iris_flower_prediction_app: return iris_flower_prediction_app_url        
+        
 def iris_flower_prediction_app_using_RandomForestClassifier():
         """iris_flower_prediction_app.iris_flower_prediction_app().value"""
         global iris_flower_prediction_app_using_RandomForestClassifier
