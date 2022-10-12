@@ -13,6 +13,18 @@ def iris_flower_prediction_app_using_RandomForestClassifier():
         global iris_flower_prediction_app_using_RandomForestClassifier
         if iris_flower_prediction_app: return iris_flower_prediction_app_using_RandomForestClassifier
 
+def st_ui():
+    '''
+    Streamlit UI
+    '''
+    st.set_page_config(
+        page_title="Iris flower prediction dataset",
+        page_icon="🍲",
+        layout="wide",
+        initial_sidebar_state="expanded"
+    ) 
+        
+       
 def add_bg_from_url():
     st.markdown(f"""
          <style>
@@ -22,6 +34,8 @@ def add_bg_from_url():
              background-size: cover}}
              </style>""",unsafe_allow_html=True)
 add_bg_from_url()
+
+
 
 
 st.write("""
