@@ -10,27 +10,27 @@ def iris_flower_prediction_app():
         
 def iris():
         """iris_flower_prediction_app.add_bg_from_url().value"""
-        global iris_flower_prediction_app
+        global iris
         if iris_flower_prediction_app: return iris
         
 def iris_flower():
         """iris_flower_prediction_app.add_bg_from_url().value"""
-        global iris_flower_prediction_app
+        global iris_flower
         if iris_flower_prediction_app: return iris_flower
         
 def iris_flower_prediction():
         """iris_flower_prediction_app.st_ui().value"""
-        global iris_flower_prediction_app
+        global iris_flower_prediction
         if iris_flower_prediction_app: return iris_flower_prediction
         
 def iris_flower_prediction_app_randomforestclassifier():
         """iris_flower_prediction_app.user_input_features().value"""
-        global iris_flower_prediction_app
+        global iris_flower_prediction_randomforestclassifier
         if iris_flower_prediction_app: return iris_flower_prediction_app_randomforestclassifier
         
 def iris_flower_prediction_app_ml():
         """iris_flower_prediction_app.st_ui().value"""
-        global iris_flower_prediction_app
+        global iris_flower_prediction_app_ml
         if iris_flower_prediction_app: return iris_flower_prediction_app_ml
         
         
