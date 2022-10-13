@@ -42,7 +42,10 @@ import pydaisi as pyd
 iris_flower_prediction_app = pyd.Daisi("nandhakumar/Iris Flower Prediction App")
 ```
 ### Now, connect to Daisi and access the functions using:
-### Documented endpoints
+#### user_input_features
+```
+iris_flower_prediction_app.user_input_features().value
+```
 #### iris_flower_prediction_app
 ```
 iris_flower_prediction_app.iris_flower_prediction_app().value
