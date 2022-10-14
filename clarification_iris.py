@@ -49,6 +49,7 @@ def iris_flower_prediction_app_url():
         """iris_flower_prediction_app.add_bg_from_url().value"""
         global iris_flower_prediction_app
         if iris_flower_prediction_app: return iris_flower_prediction_app_url        
+
         
 def iris_flower_prediction_app_using_RandomForestClassifier():
         """iris_flower_prediction_app.iris_flower_prediction_app().value"""
@@ -65,8 +66,38 @@ def st_ui():
         layout="wide",
         initial_sidebar_state="expanded"
     ) 
+def ui():
+    '''
+    UI
+    '''
+    st.set_page_config(
+        page_title="Iris flower prediction dataset",
+        page_icon="🍲",
+        layout="wide",
+        initial_sidebar_state="expanded"
+    )         
+
+ 
+def iris_flower_prediction_app_machine_learning():
+        """iris_flower_prediction_app.add_bg_from_url().value"""
+        global iris_flower_prediction_app
+        if iris_flower_prediction_app: return iris_flower_prediction_app_machine_learning       
+ 
+def iris_flower_prediction_app_nandhakumar():
+        """iris_flower_prediction_app.user_input_features().value"""
+        global iris_flower_prediction_app
+        if iris_flower_prediction_app: return iris_flower_prediction_app_nandhakumar
+
+def iris_flower_prediction_app_nandhakumar_s():
+        """iris_flower_prediction_app.user_input_features().value"""
+        global iris_flower_prediction_app
+        if iris_flower_prediction_app: return iris_flower_prediction_app_nandhakumar_s
         
-       
+def iris_flower_prediction_app_midnight_hacker():
+        """iris_flower_prediction_app.add_bg_from_url().value"""
+        global iris_flower_prediction_app
+        if iris_flower_prediction_app: return iris_flower_prediction_app_midnight_hacker
+
 def add_bg_from_url():
     st.markdown(f"""
          <style>
