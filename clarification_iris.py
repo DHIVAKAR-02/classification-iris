@@ -116,7 +116,7 @@ st.write("""
 
 This app predicts the **Iris flower** type!
 """)
-st.info("Developed by NANDHAKUMAR S, SUJITH V, MOHAMED RAFEEK S [Team MIDNIGHT HACKER]", icon="©")
+st.info("Developed by NANDHAKUMAR S, SUJITH V, MOHAMED FARHUN M [Team TEKKYZZ]", icon="©")
 st.sidebar.header('User Input Parameters')
 st.sidebar.image("iris1.jpg")
 def user_input_features():
