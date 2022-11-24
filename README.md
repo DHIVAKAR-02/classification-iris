@@ -4,10 +4,10 @@ We have developed an app predicts the species type of Iris Flower by the inputs 
 ### Team Details:
 #### Team Name: MIDNIGHT HACKER
 #### Team Leader: NANDHAKUMAR S 
-#### Members: SUJITH V, MOHAMED RAFEEK S
+#### Members: SUJITH V, MOHAMED FARHUN M
 #### Designation: Student at BANNARI AMMAN INSTITUTE OF TECHNOLOGY, SATHYAMANGALAM.
 #### Contact: +919488393947
-#### Mail: nandhakumarshanmugam.udt.4757@gmail.com
+#### Mail: nandhakumarshanmugam.udt.4757@gmail.com (or) nandhakumar.it20@bitsathy.ac.in
 
 ## What we used......
 • Daisi
